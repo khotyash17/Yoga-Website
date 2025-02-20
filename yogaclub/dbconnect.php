@@ -1,8 +1,8 @@
 <?php
-$server = "database-1.c7mw80ewqrca.us-east-1.rds.amazonaws.com";
+$server = "database-1.c7mw80ewqrca.us-east-1.rds.amazonaws.com"; //your database endpoint
 $username = "root";
-$password = "Yashkhot17";
-$database = "dbconnect";
+$password = "Your-database-password"; //password
+$database = "dbconnect"; //database name 
 
 $conn = mysqli_connect( $server, $username, $password, $database);
 if ($conn)
