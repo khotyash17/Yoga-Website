@@ -1,3 +1,8 @@
+# Title 
+### Yoga Website Hosting on AWS Single Architecture
+
+# Steps To lounch AWS EC2 Instances
+
 1.First Launch a Instance in AWS EC2. with AMI Amazon linux.
 
 2.Befor Login the server using ssh cp yoga website zip folder to server using scp command (eg: scp -i -key-pair-of-your-server zip-folder-path-from-laptop ec2-user@public-ip-of-your-server:.).
@@ -16,6 +21,8 @@
 8.Verify it copy your publicIP and paste it on browser (your publicip/index.php) (Website is working).
 
 9.Now attach Database to record data.
+
+## Creating Database Using AWS RDS
 
 10.Create database go AWS Console serach RDS create database (give name, Set DB name as root, set password for DB, Attach to EC2 which is in use).
 
