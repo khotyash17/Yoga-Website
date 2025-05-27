@@ -1,7 +1,7 @@
 # Title 
 ### Yoga Website Hosting on AWS Single Architecture
 
-# Steps To lounch AWS EC2 Instances
+# Steps To launch AWS EC2 Instances
 
 1.First Launch a Instance in AWS EC2. with AMI Amazon linux.
 
